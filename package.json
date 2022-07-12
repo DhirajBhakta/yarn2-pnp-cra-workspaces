@@ -1,0 +1,11 @@
+{
+  "name": "monorepo",
+  "packageManager": "yarn@3.2.1",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
